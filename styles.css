@@ -1,0 +1,417 @@
+/**Global**/
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+}
+.container-fluid a {
+  text-decoration: none;  
+}
+.container-fluid {
+  background-color: #333533; /**entire page**/
+  padding-top: 35px; 
+}
+@media (min-width:320px) {
+  .container-fluid{
+  padding-left: 40px;
+  padding-right: 40px;
+  }
+}
+sub { 
+    vertical-align: sub; 
+    font-size: small; 
+} 
+.section-header {
+    font-family: "PT Mono", monospace;
+    font-size: 2.65em;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    color: #e56b6f; /**section header**/
+    font-weight: bold;
+    padding-top: 20px;
+}
+/**Global**/
+
+/**Start Navbar**/
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+}
+#navbar .navbar-nav li a, #navbar .navbar-header a {
+  font-size: 1.35em;
+  font-family: 'PT Mono', monospace;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #197278; /**navigation bar**/
+}
+#navbar .navbar-nav li a:hover, #navbar .navbar-header a:hover {
+  color: #b56576; /**naviation bar hover**/
+}
+.css-typing a:hover {
+  color: #b56576; /**for any links within the about me text**/
+}
+/**End Navbar**/
+
+/**Start About**/
+#left, #awards {
+  font-size: 1.125em;
+  line-height: 1.3em;
+  font-family: "PT Mono", monospace;
+  color: white;  /**about me text and award year bullets**/
+}
+#navbar #alisa {
+  font-size: 3em;
+  text-transform: uppercase;
+  margin-top: 5px;
+  color: #197278; /**Alisa**/
+}
+#left ul a:hover, #awards ul a:hover, .css-typing a {
+  color: #eaac8b; /**social links hover**/
+}
+.css-typing a, #left ul a, #awards ul a {
+  color: #048ba8; /**any links within the about section**/
+}
+@media (min-width:1025px) {
+  #right {
+    margin-top: -15px;
+    margin-left: 250px;
+  }
+}
+#left ul a, #awards ul a {
+  color: #9f65c6; /**award bullets**/
+}
+#left ul a:hover, #awards ul a:hover {
+  color: #b56576; /**award bullets hover**/
+}
+#awards {
+  margin-top: 10px;
+  display: inline-block;
+}
+/*Social Icons*/
+.social {
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    padding-right: 75px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+.social i:hover {
+    color: #197278;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+.social .fa-linkedin {
+  font-size: 55px;
+  color: #118ab2;
+}
+.social .fa-file-text {
+  font-size: 47px;
+  color: #acc0d8;
+}
+.social .fa-github {
+  font-size: 55px;
+  color: #874fb5;
+}
+.social .fa-envelope-square {
+  font-size: 53px;
+  color: #668BB7;
+}
+
+/**Start Type Writer Effect**/
+.css-typing p {
+  font-family: "PT Mono", monospace;
+  font-size: 0.985em;
+  overflow: hidden;
+  margin: 3px !important;
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+  .css-typing p {
+  white-space: nowrap;
+  }    
+  .css-typing p:nth-child(1) {
+    width: 680px; /* manually set width */
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .css-typing p:nth-child(2) {
+    width: 720px; /* manually set width */
+    opacity: 0;
+    -webkit-animation: type2 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .css-typing p:nth-child(3) {
+    width: 900px; /* manually set width */
+    opacity: 0;
+    -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+    animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .css-typing p:nth-child(4) {
+    width: 900px; /* manually set width */
+    opacity: 0;
+    -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+    animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 4s;
+    animation-delay: 6s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .css-typing p:nth-child(5) {
+    width: 720px; /* manually set width */
+    opacity: 0;
+    -webkit-animation: type3 5s steps(40, end), blink .5s step-end infinite alternate;
+    animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 4s;
+    animation-delay: 8s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    100% {
+      border: none;
+    }
+  }
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    100% {
+      border: none;
+    }
+  }
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }
+}
+/**End Type Writer Effect**/
+/**End About**/
+
+/**Start Experiences**/
+#industry #research {
+    height: auto
+    margin-top: 40px;
+    min-height: 400px;
+}
+@media (min-width:961px) { 
+  .tab, .tb, .tab0, .tab1 {
+    float: right;
+  }
+}
+@media (max-width:960.999px) { 
+  .tab, .tb, .tab0, .tab1 span::before{
+    display: table;
+  }
+}
+#industry .exp, #research .exp {
+    text-align: left;
+    font-size: 1.15em;
+    line-height: 1.3em;
+    font-family: "PT Mono", monospace;
+    margin-top: 15px;  
+}
+#industry .exps #research .exps {
+  margin-left:40px;
+  margin-right:40px;
+}
+.exp .name {
+  font-weight: bold;
+  color: #197278; /**experience title**/
+}
+.exp ul {
+  color: white;
+}
+.exp a {
+  color: #9f65c6;
+}
+.exp a:hover {
+  color: #b56576;
+}
+.exp p, li {
+  margin: 5px !important;
+}
+#res-intro {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+/**End Experiences**/
+
+
+/**Start Projects**/
+#projects {
+    min-height: 400px;
+    margin-top: 15px;
+}
+#projects .project {
+    text-align: center;
+    margin-top: 0px;
+    width: 325px;
+    height: 325px;
+    position: relative;
+    display: inline-block;
+    -webkit-transition: top 0.2s;
+    transition: top 0.2s;
+}
+@media {
+  #projects .project {
+    border: 1px solid #edc7b7;
+    margin-bottom: 110px;
+    display: block;
+  }
+}
+#projects .description {
+    position: absolute;
+    padding:35px;
+}
+#projects .project-name {
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 1.3em;
+    font-family: "PT Mono", monospace;
+    text-transform: uppercase;
+}
+#projects .project a {
+  font-family: "PT Mono", monospace;
+  font-weight: bold;
+  color: #197278; /**project name**/
+}
+#projects .project a:hover {
+  color: #b56576; /**project name hover**/
+}
+#projects .project-summary {
+    height: 155px;
+    font-size: 1.15em;
+    line-height: 1.3em;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-family: "PT Mono", monospace;
+    color: white;
+}
+@media {
+  #projects .row {
+    margin-left:20px;
+    margin-right:20px;
+  }
+}
+.heart{
+  color: #FF0000;
+}
+.bold{
+  color: #eaac8b; 
+  font-weight: bold;
+}
+.bold2 {
+  color: #197278;
+  font-weight: bold;
+}
+.author {
+  /*color: #ced4da; */
+  font-weight: bold;
+}
+/**End Projects**/
+
+/**Start Footer**/
+#footer .container-fluid {
+  text-align: center;
+  font-size: 1.0em;
+  background-color:#fae7d9; /**footer background color**/
+  padding: 15px;
+  font-family: "PT Mono", monospace;
+  margin-left: -50px;
+  margin-right: -50px;
+}
+/**End Footer*
