@@ -121,7 +121,7 @@ sub {
 }
 @media (max-width: 500px) {
   .social i {
-    padding-right: 65px;
+    padding-right: 60px;
   }
 }
 .social i:hover {
