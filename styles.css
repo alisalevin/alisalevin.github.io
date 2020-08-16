@@ -95,10 +95,10 @@ sub {
 }
 .social ul {
     margin: 0;
-    padding: 5px;
+    padding: 0 5%;
 }
 .social ul li {
-    margin: 5px;
+    margin: 0 5%;
     list-style: none outside none;
     display: inline-block;
 }
