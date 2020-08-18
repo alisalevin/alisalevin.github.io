@@ -62,6 +62,7 @@ sub {
 #navbar #alisa {
   font-size: 3em;
   text-transform: uppercase;
+  font-family: 'PT Mono', monospace;
   margin-top: 5px;
   color: #197278; /**Alisa**/
 }
