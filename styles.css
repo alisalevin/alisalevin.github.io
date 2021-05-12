@@ -10,7 +10,7 @@ html {
   background-color: #333533; /**entire page**/
   padding-top: 35px; 
 }
-@media (min-width:320px) {
+@media (min-width: 320px) {
   .container-fluid{
   padding-left: 40px;
   padding-right: 40px;
@@ -72,10 +72,10 @@ sub {
 .css-typing a, #left ul a, #awards ul a {
   color: #048ba8; /**any links within the about section**/
 }
-@media (min-width:1025px) {
+@media (min-width: 1025px) {
   #right {
     margin-top: -15px;
-    margin-left: 250px;
+    margin-left: 150px;
   }
 }
 #left ul a, #awards ul a {
@@ -120,7 +120,7 @@ sub {
     -o-transition: all ease 0.3s;
     -ms-transition: all ease 0.3s;
 }
-@media (max-width: 500px) {
+@media (max-width: 950px) { /* width of social links*/
   .social i {
     padding-right: 55px;
   }
@@ -146,9 +146,15 @@ sub {
   font-size: 55px;
   color: #874fb5;
 }
+.social .fa-graduation-cap {
+  font-size: 55px;
+  color: #94AECD;
+  vertical-align: -16%;
+}
 .social .fa-envelope-square {
   font-size: 53px;
   color: #668BB7;
+  padding-left: 18px;
 }
 
 /**Start Type Writer Effect**/
@@ -158,7 +164,7 @@ sub {
   overflow: hidden;
   margin: 3px !important;
 }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+@media (min-width: 1025px) { /* big landscape tablets, laptops, and desktops */
   .css-typing p {
   white-space: nowrap;
   }    
